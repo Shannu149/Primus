@@ -1,0 +1,42 @@
+.services { color:#173a2c; text-align:left; font:15px/1.5 Arial,sans-serif; }
+.services * {box-sizing:border-box}
+.services h1 {font-size:30px;letter-spacing:0;color:#173a2c;margin:0 0 10px}
+.services h2 {color:#173a2c;font-size:23px;margin:0 0 12px}
+.services h3 {margin:0 0 10px}
+.services p {margin:8px 0 14px}
+.services button,.services .button {background:#237a52;color:white;border:0;border-radius:8px;padding:11px 17px;cursor:pointer;font:inherit;display:inline-block;text-decoration:none}
+.services button.secondary {background:#e9f2ed;color:#173a2c}
+.services button:disabled {opacity:.55;cursor:wait}
+.services input,.services select,.services textarea {width:100%;background:white;color:#1c3026;border:1px solid #bdcec4;border-radius:7px;padding:10px;font:inherit;}
+.services label {display:block;font-weight:600;margin-bottom:12px}
+.services label input,.services label select,.services label textarea {display:block;margin-top:5px;font-weight:400}
+.services .grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.services .panel {background:white;padding:24px;border:1px solid #d9e7df;border-radius:14px;margin:16px 0}
+.services .toolbar {display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:16px 0}
+.services .toolbar input {flex:1;min-width:180px}
+.services .toolbar select {width:auto}
+.services .notice {padding:12px;border-radius:8px;background:#eef5ef;overflow-wrap:anywhere}
+.services .error {background:#fff0ed;color:#a12d20}
+.services table {border-collapse:collapse;width:100%;background:white;font-size:14px}
+.services th {background:#e9f2ed;text-align:left;white-space:nowrap}
+.services td,.services th {padding:14px;border-bottom:1px solid #dde6e0;vertical-align:top}
+.services .table-wrap {overflow:auto;border:1px solid #dde6e0;border-radius:10px}
+.services .badge {display:inline-block;padding:3px 9px;border-radius:20px;background:#eef1f4;white-space:nowrap;font-weight:700}
+.services .monthly {background:#fce6b3;color:#785000}
+.services .card {background:white;color:#173a2c;border:2px solid #237a52;padding:28px;max-width:620px;overflow-wrap:anywhere}
+.services .card header {display:flex;gap:18px;align-items:center;border-bottom:2px solid #237a52;padding-bottom:16px;margin-bottom:18px}
+.services .card img {width:80px;height:80px;object-fit:contain}
+.services .card h2 {font-size:22px}
+.services .card h3 {font-size:26px;margin:20px 0 6px}
+.services .card small {display:block;color:#526a5d}
+.services .card footer {border-top:1px solid #d9e7df;margin-top:24px;padding-top:12px;font-size:12px}
+.services .check {display:flex;align-items:center;gap:10px}
+.services .check input {width:auto;margin:0}
+@media(max-width:650px){.services .grid{grid-template-columns:1fr}.services .panel{padding:16px}.services .card{padding:16px}}
+
+.store-nav {display:flex;gap:12px;flex-wrap:wrap;padding:12px 24px;background:#eaf4ee;border-bottom:1px solid #d5e5db;font:600 15px Arial,sans-serif;}
+.store-nav a {color:#185b3c;text-decoration:none;padding:10px 16px;border-radius:8px;background:white;}
+.store-nav a:hover,.store-nav a:focus-visible {background:#d6eadd;outline:2px solid #237a52;}
+.store-anchor {scroll-margin-top:120px;}
+html {scroll-behavior:smooth;}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto;}}

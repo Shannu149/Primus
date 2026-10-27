@@ -1,0 +1,36 @@
+# Dependencies and generated builds
+**/node_modules/
+**/target/
+**/dist/
+**/checks-out/
+*.class
+*.log
+*.tsbuildinfo
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+*.pem
+*.key
+*.p12
+*.jks
+
+# Private database exports and backups
+/backups/
+/dumps/
+*.sql.gz
+*.sql.zip
+*.dump
+*.bak
+# Keep source SQL schemas and store seed scripts tracked.
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+__pycache__/
